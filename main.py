@@ -4,9 +4,9 @@ from aiogram.utils import executor
 from aiogram.types import ForceReply
 
 # Настройки — замени на свои
-BOT_TOKEN = '7311228660:AAHz-o_d0R19dB4TTlW0lOmznVHJGkMUft0'                    # Токен бота
-INVITE_LINK = 'https://t.me/+Ru9BwuOgMJ0wNTdi'  # Пригласительная ссылка на приватный канал
-CHANNEL_ID = -1003014944285                      # ID приватного канала (бот должен быть админом!)
+BOT_TOKEN = ''                    # Токен бота
+INVITE_LINK = ''  # Пригласительная ссылка на приватный канал
+CHANNEL_ID = #добавь приватный айди тгк начинается с -                    # ID приватного канала (бот должен быть админом!)
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
